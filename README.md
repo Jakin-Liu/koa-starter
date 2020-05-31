@@ -22,7 +22,7 @@ Node 版本 v10 以上
 
 ##### clone 本项目
 ```
-git clone https://github.com/JakinMiao/cli-jakin-koa.git
+git clone https://github.com/Jakin-Liu/koa-starter.git
 ```
 #### 使用 ycli-koa
 ```
