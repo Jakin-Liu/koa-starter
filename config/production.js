@@ -8,12 +8,12 @@ module.exports = {
     mongodb: [
       {
         name: 'db',
-        url: process.env.CASH_LOAN_MONGODB_URI || 'mongodb://127.0.0.1:27017/koa',
+        url: process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/koa',
         options: {}
       },
       {
         name: 'log',
-        url: process.env.LOG_MONGODB_URI || 'mongodb://127.0.0.1:27017/koa-log',
+        url: process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/koa-log',
         options: {}
       }
     ]

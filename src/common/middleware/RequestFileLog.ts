@@ -5,24 +5,6 @@ import { lib } from '../modules'
 const {ObjectId, Logger, DateUtil} = lib
 
 const sortKeys = [
-  'requestId',
-  'userId',
-  'type',
-  'requestTime',
-  'responseTime',
-  'retCode',
-  'retMsg',
-  'useTime',
-  'params',
-  'body',
-  'query',
-  'httpMethod',
-  'url',
-  'app',
-  'version',
-  'channel',
-  'response',
-  'errorStack'
 ]
 
 /**
